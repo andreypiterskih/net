@@ -19,6 +19,7 @@ public class Main extends JFrame implements Runnable{
         new Thread(new Server()).start();
     }
 
+    //
     public Main (String name) {
         super (name);
         setLayout(new FlowLayout());
